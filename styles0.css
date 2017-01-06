@@ -1,0 +1,301 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Quicksand', sans-serif;*/
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Quicksand', sans-serif;
+ }
+
+body, html {
+    height: 100%;
+}
+
+
+nav.navbar {
+   margin: 0;
+   padding: 0;
+   font-size: 20px;
+}
+
+.orange {
+   color: rgb(255, 168, 0);
+   text-shadow: 1px 1px black;
+}
+
+.pad {
+   margin: 0;
+   padding: 20px 0 20px 30px;
+   width: 68vw;
+   display: inline-block;
+   float: left;
+}
+
+.main {
+   background-color: white;
+   height: 37vh;
+   padding: 0 30px;
+}
+
+.pad2 {
+   padding: 20px 20px 20px 20px;
+   height: 100px;
+}
+
+.pad3 {
+   padding: 15vh 5vw;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('/images/Mountain.jpg');
+    background-size: cover;
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center {
+    text-align: center;
+}
+
+.center2 {
+   position: absolute;
+   margin: auto;
+   top: 600;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+
+.right {
+   right: 0;
+   bottom: 0;
+}
+
+.flex {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.title {
+   width: 68vw;
+   height: auto;
+   display: inline-block;
+}
+
+small {
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    display: inline-block;
+    float: right;
+    padding: 0;
+}
+
+.font {
+   font-size: 45px;
+}
+
+.font1 {
+   font-size: 30px;
+}
+
+.font2 {
+   font-size: 20px;
+}
+
+.font3 {
+   font-size: 25px;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url('http://cdn.history.com/sites/2/2015/09/iStock_000038100826_Large.jpg');
+    background-size: cover;
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*.yosemite {
+   background-image: url("https://content-oars.netdna-ssl.com/wp-content/uploads/2015/12/Yosemite.Fran_.jpg");
+   background-size: cover;
+}*/
+
+.white {
+   color: white;
+   text-shadow:  1px 1px black;
+   padding: 0 30px
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('https://content-oars.netdna-ssl.com/wp-content/uploads/2015/12/Yosemite.Fran_.jpg');
+    background-size: cover;
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*.yosemite {
+   background-image: url("https://content-oars.netdna-ssl.com/wp-content/uploads/2015/12/Yosemite.Fran_.jpg");
+   background-size: cover;
+}*/
+
+.white {
+   color: white;
+   text-shadow:  1px 1px black;
+   padding: 0 30px
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url('http://wallpapercave.com/wp/kX2de6t.jpg');
+    background-size: cover;
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url('http://fullhdpictures.com/wp-content/uploads/2016/05/Mountain-Biking-Photos-HD.jpg');
+    background-size: cover;
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5 {
+    /* The image used */
+    background-image: url('http://www.pafamilysafety.com/wp-content/uploads/2013/06/PHOTO-Hiker-on-Mountain.jpg');
+    background-size: cover;
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax6 {
+    /* The image used */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/55/Hiking_in_the_Talkeetna_Mountains_of_Alaska.JPG');
+    background-size: cover;
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*https://upload.wikimedia.org/wikipedia/commons/5/55/Hiking_in_the_Talkeetna_Mountains_of_Alaska.JPG*/
+.parallax7 {
+    /* The image used */
+    background-image: url('https://s-media-cache-ak0.pinimg.com/originals/5b/26/64/5b2664e36cc102784e093bc3ac11309c.jpg');
+    background-size: cover;
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax8 {
+    /* The image used */
+    background-image: url('http://media.spokesman.com/photos/2014/11/20/out_20_landers_x_skiiers_2.jpg');
+    background-size: cover;
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex1 {
+   display: flex;
+   align-items: center;
+   /*justify-content: space-around;*/
+}
+
+.centerpic {
+   position: absolute;
+   margin-left: auto;
+   margin-right: auto;
+   left: 0;
+   right: 0;
+   box-shadow: 10px 10px 5px #888888;
+   border: 3px solid white;
+}
+
+.story {
+   margin-top: 330px;
+}
+
+.box {
+   box-shadow: 10px 10px 5px #888888;
+}
+
+#container1 {
+   background-image: url("http://7-themes.com/data_images/out/30/6872614-yellowstone-pictures.jpg");
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }

@@ -1,0 +1,458 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Quicksand', sans-serif;*/
+html {
+    font-size: 2vw;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Quicksand', sans-serif;
+ }
+
+body, html {
+    height: 100%;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+nav.navbar {
+   margin: 0;
+   padding: 0;
+   font-size: 20px;
+}
+
+.orange {
+   color: rgb(255, 168, 0);
+   text-shadow: 1px 1px black;
+}
+
+.pad {
+   margin: 0;
+   padding: 20px 0 20px 30px;
+   width: 68vw;
+   display: inline-block;
+   float: left;
+}
+
+.main {
+   background-color: white;
+   height: 48vh;
+   padding: 0 30px;
+}
+
+.pad2 {
+   padding: 5vh 5vw 20vh 5vw;
+   height: 100px;
+}
+
+.pad3 {
+   padding: 18vh 5vw;
+}
+
+.pad4 {
+   padding: 3vh 5vw 5vh 5vw;
+   height: 100px;
+}
+
+.pad5 {
+   padding: 8vh 0 0 10vw;
+}
+
+.pad6 {
+   padding-top: 3vh;
+}
+
+.pad7 {
+   padding: 20px 20px;
+
+}
+
+.pad8 {
+   padding: 18vh 5vw 5vh 5vw;;
+}
+
+ .pad9 {
+    padding-top: 2vh;
+}
+
+.pad10 {
+   padding-left: 3vw;
+   padding-right: 3vw;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('/images/Mountain.jpg');
+    background-size: cover;
+
+    /* Full height */
+    height: 80vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center {
+    text-align: center;
+}
+
+.center1 {
+    text-align: center;
+}
+
+#border {
+   border: 5px solid black;
+}
+
+.center2 {
+   position: absolute;
+   margin: auto;
+   top: 600;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+
+.right {
+   right: 0;
+   bottom: 0;
+}
+
+.flex {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.title {
+   width: 68vw;
+   height: auto;
+   display: inline-block;
+}
+
+small {
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    display: inline-block;
+    float: right;
+    padding: 0;
+}
+
+.font {
+   font-size: 4.5vw;
+}
+
+.font1 {
+   font-size: 3vw;
+}
+
+.font2 {
+   font-size: 2vw;
+}
+
+.font3 {
+   font-size: 2.5vw;
+}
+
+.font4 {
+   font-size: 7vw;
+}
+
+.font5 {
+   font-size: 12vw;
+}
+
+.font6 {
+   font-size: 1.5vw;
+}
+
+#guides1 {
+   border-top: 5px solid black;
+   /*border-left: 5px solid black;
+   border-right: 5px solid black;*/
+}
+
+#guides2 {
+   border-bottom: 5px solid black;
+   /*border-left: 5px solid black;
+   border-right: 5px solid black;*/
+}
+.parallax1 {
+    /* The image used */
+    background-image: url('/images/Glacier1.jpg');
+    background-size: cover;
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.white {
+   color: white;
+   text-shadow:  1px 1px black;
+   padding: 0 30px
+}
+
+.white1 {
+   color: white;
+   text-shadow: 1px 1px black;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('/images/Yosemite1.jpg');
+    background-size: cover;
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.white {
+   color: white;
+   text-shadow:  1px 1px black;
+   padding: 0 30px;
+}
+
+.white1 {
+   color: white;
+   text-shadow:  1px 1px black;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url('/images/Canyon1.jpg');
+    background-size: cover;
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url('/images/Biking1.jpg');
+    background-size: cover;
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5 {
+    /* The image used */
+    background-image: url('/images/Hiking1.jpg');
+    background-size: cover;
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax6 {
+    /* The image used */
+    background-image: url('/images/Hiking2.jpg');
+    background-size: cover;
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*https://upload.wikimedia.org/wikipedia/commons/5/55/Hiking_in_the_Talkeetna_Mountains_of_Alaska.JPG*/
+.parallax7 {
+    /* The image used */
+    background-image: url('/images/Biking2.jpg');
+    background-size: cover;
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax8 {
+    /* The image used */
+    background-image: url('/images/Skiing1.jpg');
+    background-size: cover;
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex1 {
+   display: flex;
+   align-items: center;
+   /*justify-content: space-around;*/
+}
+
+.centerpic {
+   position: relative;
+   margin: 3vh 35vw 5vh 35vw;
+   box-shadow: 10px 10px 5px #888888;
+   border: 3px solid white;
+   width: 30vw;
+}
+
+.story {
+   margin-top: 45vh;
+}
+
+.box {
+   box-shadow: 10px 10px 5px #888888;
+}
+
+.box1 {
+   box-shadow: 10px 10px 5px #888888;
+   width: 30vw;
+   height: 45vh;
+}
+
+#container1 {
+   background-image: url("/images/Bison1.jpg");
+   background-size: cover;
+}
+
+.sugg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.button {
+   margin-top: 30px;
+   width: 150px;
+   align-self: flex-end;
+}
+
+.thanks {
+   margin: 25vh 10vw;
+   width: 80vw;
+}
+
+.space {
+   height: 10vh;
+}
+
+.guide {
+   width: 30vw
+   height: auto;
+}
+
+.border {
+   border-top: 5px solid black;
+   border-bottom: 5px solid black;
+}
+
+#blue {
+  background-color: rgb(15, 76, 213);
+}
+
+#picborder {
+   border: 1px solid lightgrey;
+}
+
+.shadow {
+   text-shadow: 3px 3px black;
+}
+
+.hike {
+  width: 30vw;
+}
+
+.grey {
+   background-color: lightgrey;
+}
+
+.logo-left {
+   width: 30vw;
+}
+
+.indent {
+   margin: 10vh;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+html {
+   font-size: 1.5vh;
+}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+   html {
+      font-size: 2vh;
+   }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+   /*body { font-size:100%;}*/
+ }
+
+ @media screen and (min-width: 50em) {
+   html {
+     font-size: 2vw;
+   }
+ }
+
+ @media screen and (min-width: 75em) {
+  html {
+    font-size: 1.5em;
+  }
+}

@@ -1,0 +1,14 @@
+<div class="container-fluid">
+  <div class="center font pad2 orange">
+    <u>Mountain Adventure Gear</u>
+  </div>
+  <div ng-repeat="pic in gear">
+    <!-- <div class="clearfix" ng-if="$index % 3 == 0"></div> -->
+    <div class="col-md-4" >
+      <a href="{{pic.img}}" data-lightbox="gear" data-title="{{pic.data}}"><img ng-src="{{pic.img}}" id="picborder" width="300" height="250" class="box"/></a>
+      <p class="font1 pad6">{{pic.data}}</p>
+    </div>
+  </div>
+</div>
+<div class="space" id"blue">
+</div>

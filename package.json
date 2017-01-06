@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KGrastorf/bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KGrastorf/bootstrap/issues"
+  },
+  "homepage": "https://github.com/KGrastorf/bootstrap#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "lightbox2": "^2.9.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
