@@ -192,6 +192,7 @@ small {
     /* The image used */
     background-image: url('/images/Glacier1.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
 
     /* Full height */
     height: 80%;
@@ -429,7 +430,7 @@ small {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
 html {
-   font-size: 1.5vh;
+   font-size: 10vh;
 }
 
 }
@@ -437,7 +438,7 @@ html {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) {
    html {
-      font-size: 2vh;
+      font-size: 4vh;
    }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -447,12 +448,12 @@ html {
 
  @media screen and (min-width: 50em) {
    html {
-     font-size: 2vw;
+     font-size: 6vw;
    }
  }
 
  @media screen and (min-width: 75em) {
   html {
-    font-size: 1.5em;
+    font-size: 8em;
   }
 }
