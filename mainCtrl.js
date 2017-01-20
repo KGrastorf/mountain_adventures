@@ -5,7 +5,7 @@ angular.module("mtnApp")
           img: "http://www.austinadventures.com/assets/yellowstone_national_park_group_.png",
           data: "Yellowstone"
         },{
-          img: "https://media.wildernessinquiry.org/Itinerary/Yellowstone-Family-Adventure/lg/Yellowstone-Family-Adventure-16300.jpg",
+          img: "https://thumb1.shutterstock.com/display_pic_with_logo/9438/194278274/stock-photo-family-of-five-people-camping-and-having-fun-cooking-over-fire-194278274.jpg",
           data: "Fun at the Campsite."
         },{
           img: "https://content-oars.netdna-ssl.com/wp-content/uploads/2015/12/wyoming-yellowstone-explorer-019.jpg",
