@@ -2,7 +2,7 @@ angular.module("mtnApp")
     .controller("mainCtrl", function($scope, mainServ){
         $scope.name = mainServ.name;
         $scope.gallery = [{
-          img: "http://www.austinadventures.com/assets/yellowstone_national_park_group_.png",
+          img: "http://travellogs.us/2011%20Logs/Wyoming/11-142%20Yellowstone%20NP/Yellowstone_8619---------.JPG",
           data: "Yellowstone"
         },{
           img: "https://thumb1.shutterstock.com/display_pic_with_logo/9438/194278274/stock-photo-family-of-five-people-camping-and-having-fun-cooking-over-fire-194278274.jpg",
@@ -11,7 +11,7 @@ angular.module("mtnApp")
           img: "https://content-oars.netdna-ssl.com/wp-content/uploads/2015/12/wyoming-yellowstone-explorer-019.jpg",
           data: "The Grand Canyon of Yellowstone"
         },{
-          img: "http://www.austinadventures.com/assets/luxury-vacations-in-Yosemite-680x510.jpg?112092",
+          img: "http://www.travelyosemite.com/media/262972/yosemite-backpacking-488938739_1000x500.jpg",
           data: "Yosemite National Park."
         },{
           img: "http://katelynjamesblog.com/wp-content/uploads/2013/03/yosemite-vacation_2216.jpg",
