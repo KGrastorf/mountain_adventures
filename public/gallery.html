@@ -5,8 +5,8 @@
   </div>
   <div ng-repeat="pic in gallery">
     <!-- <div class="clearfix" ng-if="$index % 3 == 0"></div> -->
-    <div class="col-md-4" >
-      <a href="{{pic.img}}" data-lightbox="gallery" data-title="{{pic.data}}"><img ng-src="{{pic.img}}"  width="375" height="250" class="box"/></a>
+    <div class="col-md-4 col-sm-12" >
+      <a href="{{pic.img}}" data-lightbox="gallery" data-title="{{pic.data}}"><img ng-src="{{pic.img}}"   class="box"/></a>
       <p class="font1 pad6">{{pic.data}}</p>
     </div>
   </div>

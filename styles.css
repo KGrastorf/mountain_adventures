@@ -42,7 +42,7 @@ nav.navbar {
 
 .main {
    background-color: white;
-   height: 48vh;
+   height: auto;
    padding: 0 30px;
 }
 
@@ -355,6 +355,8 @@ small {
 
 .box {
    box-shadow: 10px 10px 5px #888888;
+   width: 350px;
+   height: 275px;
 }
 
 .box1 {
@@ -434,8 +436,12 @@ small {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
 html {
-   font-size: 10vh;
-}
+   font-s
+   .box {
+      box-shadow: 10px 10px 5px #888888;
+      width: 90vw;
+      height: 120vh;
+   }
 
 }
 
@@ -444,15 +450,31 @@ html {
    html {
       font-size: 4vh;
    }
+   .box {
+      box-shadow: 10px 10px 5px #888888;
+      width: 90vw;
+      height: 120vh;
+   }
+}
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) {
    /*body { font-size:100%;}*/
+   .box {
+      box-shadow: 10px 10px 5px #888888;
+      width: 90vw;
+      height: 120vh;
+   }
  }
 
  @media screen and (min-width: 50em) {
    html {
      font-size: 6vw;
+   }
+   .box {
+      box-shadow: 10px 10px 5px #888888;
+      width: 90vw;
+      height: 120vh;
    }
  }
 
@@ -460,4 +482,16 @@ html {
   html {
     font-size: 8em;
   }
+  .box {
+     box-shadow: 10px 10px 5px #888888;
+     width: 90vw;
+     height: 120vh;
+  }
 }
+/*@media only screen and (max-width: 1000px) {
+   .box {
+      box-shadow: 10px 10px 5px #888888;
+      width: 90vw;
+      height: 120vh;
+   }
+}*/
